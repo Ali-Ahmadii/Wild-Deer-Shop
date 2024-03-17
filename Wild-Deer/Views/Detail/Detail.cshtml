@@ -128,7 +128,9 @@
                             }
                             else
                             {
-
+                                <div class="carousel-item active">
+                                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/No-Image-Placeholder.svg/1665px-No-Image-Placeholder.svg.png" class="d-block w-100" alt="Image 1">
+                                </div>
                             }
                         }
                     </div>
@@ -156,7 +158,9 @@
                     <p>Seller: @ViewData["Seller"]</p>
                     <p>Contact: @ViewData["Contact"]</p>
                     <!-- Buy Button -->
-                    <button class="btn btn-primary">Buy Now</button>
+                    <form method="post">
+                        <button class="btn btn-primary" type="submit" asp-controller="Cache" asp-action="CachePlease" asp-route-ProductID="@Model.ProductId">Buy Now</button>
+                    </form>
                 </div>
             </div>
         </div>

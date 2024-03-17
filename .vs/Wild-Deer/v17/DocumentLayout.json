@@ -3,12 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\views\\detail\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\views\\detail\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\cachecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\detailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\views\\detail\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\views\\detail\\detail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\views\\shared\\footer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -27,16 +51,8 @@
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\successcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\paymentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\hrcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\errorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -45,10 +61,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -67,16 +79,12 @@
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Models\\WildDeerContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Wild-Deer\\Models\\WildDeerContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|c:\\users\\ali\\desktop\\.net\\wild-deer\\wild-deer\\models\\wilddeercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1A5F8E9-3720-402A-B1BB-280E1E354FB2}|Wild-Deer\\Wild-Deer.csproj|solutionrelative:wild-deer\\models\\wilddeercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,37 +94,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Detail.cshtml",
-              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Detail\\Detail.cshtml",
-              "RelativeDocumentMoniker": "Wild-Deer\\Views\\Detail\\Detail.cshtml",
-              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Detail\\Detail.cshtml",
-              "RelativeToolTip": "Wild-Deer\\Views\\Detail\\Detail.cshtml",
-              "ViewState": "AQIAAJ8AAAAAAAAAAADwv68AAABBAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-17T15:00:18.413Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "SuccessController.cs",
-              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\SuccessController.cs",
-              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\SuccessController.cs",
-              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\SuccessController.cs",
-              "RelativeToolTip": "Wild-Deer\\Controllers\\SuccessController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
+              "DocumentIndex": 2,
+              "Title": "DetailController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\DetailController.cs",
+              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\DetailController.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\DetailController.cs",
+              "RelativeToolTip": "Wild-Deer\\Controllers\\DetailController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAuwBUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:44:24.335Z",
+              "WhenOpened": "2024-03-17T14:43:15.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "ShopController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\ShopController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\ShopController.cs",
@@ -129,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "PaymentController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\PaymentController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\PaymentController.cs",
@@ -142,7 +137,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "HRController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\HRController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\HRController.cs",
@@ -155,7 +150,59 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Wild-Deer\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T14:41:36.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CacheController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\CacheController.cs",
+              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\CacheController.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\CacheController.cs",
+              "RelativeToolTip": "Wild-Deer\\Controllers\\CacheController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T17:23:37.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Program.cs",
+              "RelativeDocumentMoniker": "Wild-Deer\\Program.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Program.cs",
+              "RelativeToolTip": "Wild-Deer\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T14:18:04.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "Detail.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Detail\\Detail.cshtml",
+              "RelativeDocumentMoniker": "Wild-Deer\\Views\\Detail\\Detail.cshtml",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Detail\\Detail.cshtml",
+              "RelativeToolTip": "Wild-Deer\\Views\\Detail\\Detail.cshtml",
+              "ViewState": "AQIAAJcAAAAAAAAAAIAwwKEAAACtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T15:00:18.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\HomeController.cs",
@@ -168,46 +215,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DetailController.cs",
-              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\DetailController.cs",
-              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\DetailController.cs",
-              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\DetailController.cs",
-              "RelativeToolTip": "Wild-Deer\\Controllers\\DetailController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAgwBkAAAAMAAAA",
+              "DocumentIndex": 11,
+              "Title": "SuccessController.cs",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\SuccessController.cs",
+              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\SuccessController.cs",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\SuccessController.cs",
+              "RelativeToolTip": "Wild-Deer\\Controllers\\SuccessController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:43:15.51Z",
+              "WhenOpened": "2024-03-17T14:44:24.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
+              "Title": "Footer.cshtml",
+              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Shared\\Footer.cshtml",
+              "RelativeDocumentMoniker": "Wild-Deer\\Views\\Shared\\Footer.cshtml",
+              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Shared\\Footer.cshtml",
+              "RelativeToolTip": "Wild-Deer\\Views\\Shared\\Footer.cshtml",
+              "ViewState": "AQIAAPEAAAAAAAAAAAAwwAkBAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T16:42:05.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Wild-Deer\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Wild-Deer\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBZwA4AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-17T14:45:41.853Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Carts.cshtml",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Shared\\Carts.cshtml",
               "RelativeDocumentMoniker": "Wild-Deer\\Views\\Shared\\Carts.cshtml",
               "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\Shared\\Carts.cshtml",
               "RelativeToolTip": "Wild-Deer\\Views\\Shared\\Carts.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAQAAABZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAQAAABZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-17T14:44:58.285Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "ErrorController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\ErrorController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\ErrorController.cs",
@@ -220,7 +280,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "AdminController.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\AdminController.cs",
@@ -233,7 +293,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Models\\Comment.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Models\\Comment.cs",
@@ -246,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "Ads.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Models\\Dto\\Ads.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Models\\Dto\\Ads.cs",
@@ -259,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "SignInDto.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Models\\Dto\\SignInDto.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Models\\Dto\\SignInDto.cs",
@@ -272,20 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Wild-Deer\\Controllers\\AccountController.cs",
-              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Controllers\\AccountController.cs",
-              "RelativeToolTip": "Wild-Deer\\Controllers\\AccountController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:41:36.927Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Wild-Deer\\Views\\_ViewImports.cshtml",
@@ -298,7 +345,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "WildDeerContext.cs",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Models\\WildDeerContext.cs",
               "RelativeDocumentMoniker": "Wild-Deer\\Models\\WildDeerContext.cs",
@@ -311,20 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Program.cs",
-              "RelativeDocumentMoniker": "Wild-Deer\\Program.cs",
-              "ToolTip": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Program.cs",
-              "RelativeToolTip": "Wild-Deer\\Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAIwBAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T14:18:04.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\appsettings.json",
               "RelativeDocumentMoniker": "Wild-Deer\\appsettings.json",

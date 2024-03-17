@@ -1,5 +1,6 @@
 ﻿using Wild_Deer.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace Wild_Deer.Controllers
 {
@@ -13,6 +14,7 @@ namespace Wild_Deer.Controllers
         }
         public IActionResult Index()
         {
+
             return View();
         }
         public IActionResult Detail(int id)

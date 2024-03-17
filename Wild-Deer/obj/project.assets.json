@@ -890,6 +890,72 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "NetTopologySuite/2.5.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/netstandard2.0/NetTopologySuite.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetTopologySuite.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "NRedisStack/0.12.0": {
+        "type": "package",
+        "dependencies": {
+          "NetTopologySuite": "2.5.0",
+          "StackExchange.Redis": "2.6.122"
+        },
+        "compile": {
+          "lib/net8.0/NRedisStack.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/NRedisStack.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Pipelines.Sockets.Unofficial/2.2.8": {
+        "type": "package",
+        "dependencies": {
+          "System.IO.Pipelines": "5.0.1"
+        },
+        "compile": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Pipelines.Sockets.Unofficial.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "StackExchange.Redis/2.7.33": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Pipelines.Sockets.Unofficial": "2.2.8"
+        },
+        "compile": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/StackExchange.Redis.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -1148,7 +1214,7 @@
       "System.IO.Pipelines/6.0.3": {
         "type": "package",
         "compile": {
-          "lib/net6.0/_._": {
+          "lib/net6.0/System.IO.Pipelines.dll": {
             "related": ".xml"
           }
         },
@@ -2924,6 +2990,84 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "NetTopologySuite/2.5.0": {
+      "sha512": "5/+2O2ADomEdUn09mlSigACdqvAf0m/pVPGtIPEPQWnyrVykYY0NlfXLIdkMgi41kvH9kNrPqYaFBTZtHYH7Xw==",
+      "type": "package",
+      "path": "nettopologysuite/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/netstandard2.0/NetTopologySuite.dll",
+        "lib/netstandard2.0/NetTopologySuite.xml",
+        "nettopologysuite.2.5.0.nupkg.sha512",
+        "nettopologysuite.nuspec"
+      ]
+    },
+    "NRedisStack/0.12.0": {
+      "sha512": "IBqMknDJH57WV2gfXExT2GzEoZhCl0Ckk85KYpAbMbbh+2lD2RcMid8LpQOtE2hdYqdzM8EVyJ7SpK57i3EkGA==",
+      "type": "package",
+      "path": "nredisstack/0.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net6.0/NRedisStack.dll",
+        "lib/net6.0/NRedisStack.xml",
+        "lib/net7.0/NRedisStack.dll",
+        "lib/net7.0/NRedisStack.xml",
+        "lib/net8.0/NRedisStack.dll",
+        "lib/net8.0/NRedisStack.xml",
+        "lib/netstandard2.0/NRedisStack.dll",
+        "lib/netstandard2.0/NRedisStack.xml",
+        "nredisstack.0.12.0.nupkg.sha512",
+        "nredisstack.nuspec"
+      ]
+    },
+    "Pipelines.Sockets.Unofficial/2.2.8": {
+      "sha512": "zG2FApP5zxSx6OcdJQLbZDk2AVlN2BNQD6MorwIfV6gVj0RRxWPEp2LXAxqDGZqeNV1Zp0BNPcNaey/GXmTdvQ==",
+      "type": "package",
+      "path": "pipelines.sockets.unofficial/2.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Pipelines.Sockets.Unofficial.dll",
+        "lib/net461/Pipelines.Sockets.Unofficial.xml",
+        "lib/net472/Pipelines.Sockets.Unofficial.dll",
+        "lib/net472/Pipelines.Sockets.Unofficial.xml",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/net5.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netcoreapp3.1/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.0/Pipelines.Sockets.Unofficial.xml",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.dll",
+        "lib/netstandard2.1/Pipelines.Sockets.Unofficial.xml",
+        "pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+        "pipelines.sockets.unofficial.nuspec"
+      ]
+    },
+    "StackExchange.Redis/2.7.33": {
+      "sha512": "2kCX5fvhEE824a4Ab5Imyi8DRuGuTxyklXV01kegkRpsWJcPmO6+GAQ+HegKxvXAxlXZ8yaRspvWJ8t3mMClfQ==",
+      "type": "package",
+      "path": "stackexchange.redis/2.7.33",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/StackExchange.Redis.dll",
+        "lib/net461/StackExchange.Redis.xml",
+        "lib/net472/StackExchange.Redis.dll",
+        "lib/net472/StackExchange.Redis.xml",
+        "lib/net6.0/StackExchange.Redis.dll",
+        "lib/net6.0/StackExchange.Redis.xml",
+        "lib/netcoreapp3.1/StackExchange.Redis.dll",
+        "lib/netcoreapp3.1/StackExchange.Redis.xml",
+        "lib/netstandard2.0/StackExchange.Redis.dll",
+        "lib/netstandard2.0/StackExchange.Redis.xml",
+        "stackexchange.redis.2.7.33.nupkg.sha512",
+        "stackexchange.redis.nuspec"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -4104,7 +4248,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 8.0.3",
       "Microsoft.EntityFrameworkCore.Relational >= 8.0.3",
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.3",
-      "Microsoft.EntityFrameworkCore.Tools >= 8.0.3"
+      "Microsoft.EntityFrameworkCore.Tools >= 8.0.3",
+      "NRedisStack >= 0.12.0",
+      "StackExchange.Redis >= 2.7.33"
     ]
   },
   "packageFolders": {
@@ -4174,6 +4320,14 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[8.0.3, )"
+          },
+          "NRedisStack": {
+            "target": "Package",
+            "version": "[0.12.0, )"
+          },
+          "StackExchange.Redis": {
+            "target": "Package",
+            "version": "[2.7.33, )"
           }
         },
         "imports": [

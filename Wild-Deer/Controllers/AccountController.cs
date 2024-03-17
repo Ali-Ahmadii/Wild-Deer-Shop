@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Security.Claims;
-
+using Microsoft.Extensions.Caching.Memory;
 namespace Wild_Deer.Controllers
 {
     public class AccountController : Controller
