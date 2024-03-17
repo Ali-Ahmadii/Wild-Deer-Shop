@@ -1,0 +1,377 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Wild-Deer.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Wild-Deer.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\12.jpg",
+      "PackagePath": "staticwebassets\\img\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Account.png",
+      "PackagePath": "staticwebassets\\img\\Account.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Github.png",
+      "PackagePath": "staticwebassets\\img\\Github.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Gmail.png",
+      "PackagePath": "staticwebassets\\img\\Gmail.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Instagram.png",
+      "PackagePath": "staticwebassets\\img\\Instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Linkedin.png",
+      "PackagePath": "staticwebassets\\img\\Linkedin.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Peach.jfif",
+      "PackagePath": "staticwebassets\\img\\Peach.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Peachh.png",
+      "PackagePath": "staticwebassets\\img\\Peachh.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\RTX3090.jpg",
+      "PackagePath": "staticwebassets\\img\\RTX3090.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Sellers Profile\\Nvidia.jpg",
+      "PackagePath": "staticwebassets\\img\\Sellers Profile\\Nvidia.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Sellers Profile\\acer.png",
+      "PackagePath": "staticwebassets\\img\\Sellers Profile\\acer.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Sellers Profile\\apple.png",
+      "PackagePath": "staticwebassets\\img\\Sellers Profile\\apple.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Sellers Profile\\intel.png",
+      "PackagePath": "staticwebassets\\img\\Sellers Profile\\intel.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\Telegram.png",
+      "PackagePath": "staticwebassets\\img\\Telegram.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\aspire.jpg",
+      "PackagePath": "staticwebassets\\img\\aspire.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\back.jpg",
+      "PackagePath": "staticwebassets\\img\\back.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\book.jpg",
+      "PackagePath": "staticwebassets\\img\\book.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\boot.jfif",
+      "PackagePath": "staticwebassets\\img\\boot.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\card.png",
+      "PackagePath": "staticwebassets\\img\\card.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\corei7.jfif",
+      "PackagePath": "staticwebassets\\img\\corei7.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\corei9.jpg",
+      "PackagePath": "staticwebassets\\img\\corei9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\iphone15.jfif",
+      "PackagePath": "staticwebassets\\img\\iphone15.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\logo.jfif",
+      "PackagePath": "staticwebassets\\img\\logo.jfif"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\menu.png",
+      "PackagePath": "staticwebassets\\img\\menu.png"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\img\\star.svg",
+      "PackagePath": "staticwebassets\\img\\star.svg"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\lib\\logo.png",
+      "PackagePath": "staticwebassets\\lib\\logo.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Wild-Deer.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Wild-Deer.props",
+      "PackagePath": "build\\Wild-Deer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Wild-Deer.props",
+      "PackagePath": "buildMultiTargeting\\Wild-Deer.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Wild-Deer.props",
+      "PackagePath": "buildTransitive\\Wild-Deer.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

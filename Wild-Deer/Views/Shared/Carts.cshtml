@@ -1,0 +1,35 @@
+﻿@model Product
+<div class="card" style="width:250px;">
+    <div class="row" alt="img row">
+        <div class="col">
+            <a asp-controller="Detail" asp-action="Detail" asp-route-id="@Model.ProductId"> <img src="@Model.Image" class="card-img-top" alt="Fissure in Sandstone" style="height:250px" /></a>
+        </div>
+    </div>
+
+    <div class="row mt-3 mx-1" alt="title row">
+        <div class="col"><h5 class="card-title text-lg-start">@Model.Title</h5></div>
+    </div>
+
+    <div class="row text-left mx-1" alt="description row">
+        <div class="col"><p class="card-text text-lg-start" >@Model.Description</p></div>
+    </div>
+
+    <div class="row mx-1 mt-2 text-lg-start" alt="star row">
+        <div class="col">
+            <img src="~/img/star.svg" style="width:20px;height:20px"></img>
+        </div>
+    </div>
+
+    <div class="row mt-3 mx-1 mb-2 text-lg-start" alt="price and shop button row">
+        <div class="col text-lg-start">
+           <button class="btn add btn-primary">Add</button>
+        </div>
+        <div class="col mb-1 text-lg-end mt-2">
+            <h5>@Model.Price $</h5>
+        </div>
+    </div>
+</div>
+
+
+
+

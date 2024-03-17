@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+
+        .dashboard-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+
+            .dashboard-item:hover {
+                transform: translateY(-5px);
+                box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            }
+
+        h2 {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-item">
+                    <h2>Products</h2>
+                    <a href="#" class="btn btn-primary">Manage Products</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-item">
+                    <h2>Customers</h2>
+                    <a href="#" class="btn btn-primary">Manage Customers</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-item">
+                    <h2>HR</h2>
+                    <a href="#" class="btn btn-primary">Manage HR</a>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4">
+                <div class="dashboard-item">
+                    <h2>Sold</h2>
+                    <a href="#" class="btn btn-primary">Manage Sold Items</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

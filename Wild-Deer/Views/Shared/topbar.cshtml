@@ -1,0 +1,61 @@
+﻿
+<style>
+    /* Style the dropdown menu */
+    .dropdown-menu {
+        background-color: #232F3E;
+    }
+
+    .dropdown-item {
+        color: #fff;
+    }
+
+        .dropdown-item:hover {
+            background-color: #43519B;
+        }
+
+</style>
+<body>
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand"  asp-controller="Home" asp-action="Index">
+            <img src="~/img/logo.png" alt="Basha Shop" width="75" height="60"></img>
+        </a>
+        <form class="d-flex flex-grow-1 ms-auto">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" asp-controller="Account" asp-action="Index"  id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Hello, @ViewBag.Name
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            @{
+                                if(ViewBag.SignInStatus == true)
+                                {
+                                    <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">Your Account</a></li>
+                                }
+                                else
+                                {
+                                    <li><a class="dropdown-item" asp-controller="Account" asp-action="Signin">Sign In</a></li>
+                                }
+                            }
+
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Shop" asp-action="Index"><i class="fas fa-cart-plus"></i> Cart</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>

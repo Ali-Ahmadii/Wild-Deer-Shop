@@ -1,0 +1,43 @@
+﻿@model List<Product>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WildDeer</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/blur.css" />
+    <link rel="stylesheet" href="~/Basha_Shop.styles.css" asp-append-version="true" />
+</head>
+<body>
+        <partial name="topbar" />
+        <partial name="SlideShow"/>
+        @{
+            int j =0;
+            }
+        <div class="container">
+        @{
+            for (int i = 0; i < 2; i++)
+            {
+                <div class="row">
+                    <div class="col text-center mt-4">
+                        <partial name="Carts" model="Model[j]"></partial>
+                    </div>
+                    <div class="col text-center mt-4">
+                        <partial name="Carts" model="Model[j+1]"></partial>
+                    </div>
+                    <div class="col text-center mt-4">
+                        <partial name="Carts" model="Model[j+2]"></partial>
+                    </div>
+                </div>
+                j+=3;
+             }
+        }
+    </div>
+    <partial name="Footer" />
+</body>
+</html>
+
+
+
