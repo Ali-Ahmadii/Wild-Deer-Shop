@@ -1,0 +1,57 @@
+﻿@model Seller
+<form method="post">
+    <label>Owner Name</label>
+    <input type="text" placeholder="Enter Your Name" required asp-for="OwnerName"/>
+    <label>Company Name</label>
+    <input type="text" placeholder="Enter Company Name" required asp-for="CompanyName"/>
+    <label>Username</label>
+    <input type="text" placeholder="Enter Username" required asp-for="Username"/>
+
+    <input type="password" placeholder="Password" id="password" required asp-for="PasswordHash">
+    <input type="password" placeholder="Confirm Password" id="confirm_password" required>
+
+
+
+
+    <div id="captcha"></div>
+    <input type="text" id="userInput" placeholder="Enter Captcha">
+    <p id="result"></p>
+
+
+    <label>Email Address</label>
+    <input type="text" placeholder="Enter email address" required asp-for="Email"/>
+
+
+
+    <label>Phone Number</label>
+    <input type="number" placeholder="Enter phone number" required asp-for="Phone"/>
+
+
+
+
+
+
+    <div class="input-filed">
+        <label>Profile Picture</label>
+        <input type="file" required asp-for="ProfileImage"/>
+        <label>Category-Specification</label>
+        <select id="Category-Specification" asp-for="MostProductsEra">
+            <option value="1">Electronics</option>
+            <option value="2">Clothing</option>
+            <option value="3">Books</option>
+            <option value="4">Furniture</option>
+            <option value="5">Sports</option>
+            <option value="6">Toys</option>
+            <option value="7">Other</option>
+        </select>
+
+
+
+
+        <div class="input-box address">
+            <label>Address</label>
+            <input type="text" placeholder="Enter Full Address" required asp-for="Adress"/>
+
+            <button type="submit" onclick="validateCaptcha()" asp-controller="Account" asp-action="SignUpSellerPost">Submit</button>
+            <script src="~/js/captcha.js"></script>
+</form>

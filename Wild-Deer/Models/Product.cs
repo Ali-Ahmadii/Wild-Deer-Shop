@@ -21,11 +21,5 @@ public partial class Product
 
     public string Category { get; set; } = null!;
 
-    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
 
-    public virtual ExtraImage? ExtraImage { get; set; }
-
-    public virtual Seller ProductNavigation { get; set; } = null!;
-
-    public virtual ICollection<Sold> Solds { get; set; } = new List<Sold>();
 }

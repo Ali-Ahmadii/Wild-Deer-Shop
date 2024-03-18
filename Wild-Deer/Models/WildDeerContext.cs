@@ -44,14 +44,6 @@ public partial class WildDeerContext : DbContext
             entity.Property(e => e.Username).HasMaxLength(20);
             entity.Property(e => e.WriterId).HasColumnName("WriterID");
 
-            entity.HasOne(d => d.Product).WithMany(p => p.Comments)
-                .HasForeignKey(d => d.ProductId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Comments_Products");
-
-            entity.HasOne(d => d.Writer).WithMany(p => p.Comments)
-                .HasForeignKey(d => d.WriterId)
-                .HasConstraintName("FK_Comments_Customers");
         });
 
         modelBuilder.Entity<Customer>(entity =>
@@ -88,11 +80,6 @@ public partial class WildDeerContext : DbContext
             entity.Property(e => e.Img7).HasColumnName("IMG7");
             entity.Property(e => e.Img8).HasColumnName("IMG8");
             entity.Property(e => e.Img9).HasColumnName("IMG9");
-
-            entity.HasOne(d => d.Product).WithOne(p => p.ExtraImage)
-                .HasForeignKey<ExtraImage>(d => d.ProductId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_ExtraImages_Products");
         });
 
         modelBuilder.Entity<Hr>(entity =>
@@ -115,10 +102,6 @@ public partial class WildDeerContext : DbContext
             entity.Property(e => e.SellerId).HasColumnName("SellerID");
             entity.Property(e => e.Title).HasMaxLength(50);
 
-            entity.HasOne(d => d.ProductNavigation).WithOne(p => p.Product)
-                .HasForeignKey<Product>(d => d.ProductId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Products_Sellers");
         });
 
         modelBuilder.Entity<Seller>(entity =>
@@ -150,20 +133,6 @@ public partial class WildDeerContext : DbContext
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
             entity.Property(e => e.SellerId).HasColumnName("SellerID");
 
-            entity.HasOne(d => d.Buyer).WithMany(p => p.Solds)
-                .HasForeignKey(d => d.BuyerId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Sold_Customers");
-
-            entity.HasOne(d => d.Product).WithMany(p => p.Solds)
-                .HasForeignKey(d => d.ProductId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Sold_Products");
-
-            entity.HasOne(d => d.Seller).WithMany(p => p.Solds)
-                .HasForeignKey(d => d.SellerId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("FK_Sold_Sellers");
         });
 
         OnModelCreatingPartial(modelBuilder);

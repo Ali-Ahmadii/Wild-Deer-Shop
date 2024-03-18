@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1884f40b06be32b4c77cf02ca83142ed31856bca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+844aa331261ade0160f8830ac257f9de098d48b3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

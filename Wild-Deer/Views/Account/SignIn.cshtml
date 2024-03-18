@@ -1,0 +1,26 @@
+﻿@using Wild_Deer.Models.Dto
+@model SignInDto
+<form method="post">
+    <h2>Login</h2>
+
+        <input type="username" placeholder="Enter Your Username" required asp-for="Username"/>
+        <i class="uil uil-envelope-alt email"></i>
+
+        <input type="password" placeholder="Enter Your Password" required asp-for="Password"/>
+
+    <div id="captcha"></div>
+    <input type="text" id="userInput" placeholder="Enter Captcha">
+    <p id="result"></p>
+
+        <span class="checkbox">
+            <input type="checkbox" id="check" />
+            <label for="check">Remember me</label>
+        </span>
+
+        <a href="#" class="forgot_pw">Forgot password?</a>
+
+    <button class="button" type="submit" asp-controller="Account" asp-action="SignInPost">Login Now</button>
+
+    <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+    <script src="~/js/captcha.js"></script>
+</form>

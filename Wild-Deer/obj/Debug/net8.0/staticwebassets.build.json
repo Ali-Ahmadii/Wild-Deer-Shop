@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ArM7BQheAopS0zFREqw/JSfEi0QV/fOByFr3CfdzDFY=",
+  "Hash": "fm7GEQq+695rq2OxykfBHyS41CM15K0IZt3hviHpFhg=",
   "Source": "Wild-Deer",
   "BasePath": "_content/Wild-Deer",
   "Mode": "Default",
@@ -585,6 +585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Telegram.png"
+    },
+    {
+      "Identity": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\captcha.js",
+      "SourceId": "Wild-Deer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\",
+      "BasePath": "_content/Wild-Deer",
+      "RelativePath": "js/captcha.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\captcha.js"
     },
     {
       "Identity": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\script.js",

@@ -15,12 +15,7 @@ public partial class Comment
 
     public int ProductId { get; set; }
 
-    public double Score { get; set; }
-
 
     public int? WriterId { get; set; }
 
-    public virtual Product Product { get; set; } = null!;
-
-    public virtual Customer? Writer { get; set; }
 }

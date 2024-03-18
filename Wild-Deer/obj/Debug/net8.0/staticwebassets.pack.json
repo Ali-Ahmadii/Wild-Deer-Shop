@@ -117,6 +117,10 @@
       "PackagePath": "staticwebassets\\img\\star.svg"
     },
     {
+      "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\captcha.js",
+      "PackagePath": "staticwebassets\\js\\captcha.js"
+    },
+    {
       "Id": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\wwwroot\\js\\script.js",
       "PackagePath": "staticwebassets\\js\\script.js"
     },

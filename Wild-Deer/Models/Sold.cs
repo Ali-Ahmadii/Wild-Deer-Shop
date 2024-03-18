@@ -23,9 +23,4 @@ public partial class Sold
 
     public int SellInfoId { get; set; }
 
-    public virtual Customer Buyer { get; set; } = null!;
-
-    public virtual Product Product { get; set; } = null!;
-
-    public virtual Seller Seller { get; set; } = null!;
 }

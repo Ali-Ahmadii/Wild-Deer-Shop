@@ -5,28 +5,40 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using System.Security.Claims;
 using Microsoft.Extensions.Caching.Memory;
+using Wild_Deer.Models;
 namespace Wild_Deer.Controllers
 {
     public class AccountController : Controller
     {
         [BindProperty]
         public SignInDto Infos { get; set; }
+        [BindProperty]
+        public Customer new_customer { get; set; }
+        [BindProperty]
+        public Seller new_seller { get; set; }
 
         [HttpGet]
-        public IActionResult Index()
+        public IActionResult SignUpCustomer()
         {
             return View();
         }
+
         [HttpGet]
-        public IActionResult SignUp()
+        public IActionResult SignUpSeller()
         {
             return View();
         }
+
+
         [HttpGet]
-        public IActionResult Signin()
+        public IActionResult SignIn()
         {
             return View();
         }
+
+
+
+
         [HttpGet]
         [Authorize(Policy = "SignedInCustomer")]
         public IActionResult Profile()
@@ -60,7 +72,13 @@ namespace Wild_Deer.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> SignupPost()
+        public async Task<IActionResult> SignUpCustommerPost()
+        {
+            return Redirect("/");
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignUpSellerPost()
         {
             return Redirect("/");
         }

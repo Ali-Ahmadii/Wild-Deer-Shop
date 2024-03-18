@@ -31,11 +31,8 @@ namespace Wild_Deer.Controllers
             var UsernameClaim = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
             int userID = Convert.ToInt32(nameClaim);
             Comment a_comment = new Comment();
-            a_comment.Writer = _db.Customers.FirstOrDefault(cc=>cc.UserId ==userID);
-            a_comment.Product = _db.Products.FirstOrDefault(cc => cc.ProductId == ProductID);
             a_comment.WriterId = userID;
             a_comment.ProductId = ProductID;
-            a_comment.Score = score;
             a_comment.Description = Descript;
             a_comment.Username = UsernameClaim.ToString();
             _db.Comments.Add(a_comment);

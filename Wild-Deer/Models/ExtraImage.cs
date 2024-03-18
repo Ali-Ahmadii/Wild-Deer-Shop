@@ -27,5 +27,4 @@ public partial class ExtraImage
 
     public string? Img10 { get; set; }
 
-    public virtual Product Product { get; set; } = null!;
 }

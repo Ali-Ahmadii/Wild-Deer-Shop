@@ -189,8 +189,6 @@
                 <form id="commentForm" method="post">
                     <div class="form-group">
                         <input type="text" class="form-control" id="commentInput" placeholder="Write a comment..."  name="Descript">
-                        <p>star:</p>
-                        <input type="text" style="width:70px" class="form-control" id="commentInput" placeholder="x.y" name="score">
                     </div>
                     <button type=" submit" class="btn btn-primary" asp-controller="Comment" asp-action="WriteComment" asp-route-ProductID="@Model.ProductId">Submit</button>
                 </form>

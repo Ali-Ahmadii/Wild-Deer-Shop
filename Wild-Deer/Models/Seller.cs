@@ -15,7 +15,7 @@ public partial class Seller
 
     public string Email { get; set; } = null!;
 
-    public DateTime JoinedDate { get; set; }
+    public DateTime JoinedDate { get; set; } = DateTime.Now;
 
     public string? MostProductsEra { get; set; }
 
@@ -27,7 +27,4 @@ public partial class Seller
 
     public int SellerId { get; set; }
 
-    public virtual Product? Product { get; set; }
-
-    public virtual ICollection<Sold> Solds { get; set; } = new List<Sold>();
 }

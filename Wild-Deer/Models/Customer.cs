@@ -27,7 +27,4 @@ public partial class Customer
 
     public int UserId { get; set; }
 
-    public virtual ICollection<Comment> Comments { get; set; } = new List<Comment>();
-
-    public virtual ICollection<Sold> Solds { get; set; } = new List<Sold>();
 }
