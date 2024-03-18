@@ -36,9 +36,9 @@ public partial class WildDeerContext : DbContext
     {
         modelBuilder.Entity<Comment>(entity =>
         {
+            entity.HasKey(e => e.CommentId);
             entity.Property(e => e.CommentId)
-                .ValueGeneratedNever()
-                .HasColumnName("CommentID");
+                .HasColumnName("CommentID").ValueGeneratedOnAdd();
             entity.Property(e => e.Description).HasMaxLength(100);
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
             entity.Property(e => e.Username).HasMaxLength(20);

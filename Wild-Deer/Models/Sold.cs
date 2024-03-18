@@ -21,7 +21,7 @@ public partial class Sold
 
     public bool DeliveryStatus { get; set; }
 
-    public string SellInfoId { get; set; } = null!;
+    public int SellInfoId { get; set; }
 
     public virtual Customer Buyer { get; set; } = null!;
 

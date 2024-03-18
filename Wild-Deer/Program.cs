@@ -3,10 +3,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using System;
 using System.Security.Claims;
-using NRedisStack;
-using NRedisStack.RedisStackCommands;
-using StackExchange.Redis;
-using Wild_Deer.Controllers;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,13 +11,10 @@ builder.Services.AddControllersWithViews();
 
 
 
-builder.Services.AddMemoryCache();
-
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<WildDeerContext>(config =>
 {
     config.UseSqlServer("ConnectionString");
 });
-
 
 
 

@@ -36,12 +36,22 @@ namespace Wild_Deer.Controllers
         }
 
 
-        [HttpPost]
+   
         public async Task<IActionResult> SigninPost()
         {
-            //Here We Must Create Our Claims
+
+
+            //get UserID If Valid
+            int UserID = 1;
+            string username = "who";
+
+
+
+
             var claims = new List<Claim> {
                 new Claim("Customer","Customer"),
+                new Claim("UserID",UserID.ToString()),
+                new Claim("Username",username)
                 };
             var identity = new ClaimsIdentity(claims, "MyCookieAuth");
             ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
@@ -67,7 +77,7 @@ namespace Wild_Deer.Controllers
         [Authorize(Policy = "SignedInCustomer")]
         public async Task<IActionResult> EditProfilePost()
         {
-            return Redirect("/");
+             return Redirect("/");
         }
 
         [HttpGet]

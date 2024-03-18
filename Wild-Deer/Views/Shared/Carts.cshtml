@@ -22,7 +22,9 @@
 
     <div class="row mt-3 mx-1 mb-2 text-lg-start" alt="price and shop button row">
         <div class="col text-lg-start">
-           <button class="btn add btn-primary">Add</button>
+            <form method="post">
+                <button class="btn add btn-primary" asp-controller="Cache" asp-action="CachePlease" asp-route-ProductID="@Model.ProductId">Add</button>
+            </form>
         </div>
         <div class="col mb-1 text-lg-end mt-2">
             <h5>@Model.Price $</h5>

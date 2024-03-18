@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7j5/caRTVYNBGqcsMoz+DUpJdh3zm9am/nCzSUxi3RJCO+XS4IeRSP/V9FT2iXavS7z2N/4Gp5zv7OPyO2/nBQ==",
+  "dgSpecHash": "vQtfjCfSAdxEunwYlQ8RONDFqv7e/wsm/gTA3IyL79jVKz8GmOyM6rRKXnJi0Ca6VJzCMZeBcPeXvUMbuBDjWA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Ali\\Desktop\\.NET\\Wild-Deer\\Wild-Deer\\Wild-Deer.csproj",
   "expectedPackageFiles": [
@@ -46,10 +46,6 @@
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.sqlserver.server\\1.0.0\\microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
-    "C:\\Users\\Ali\\.nuget\\packages\\nettopologysuite\\2.5.0\\nettopologysuite.2.5.0.nupkg.sha512",
-    "C:\\Users\\Ali\\.nuget\\packages\\nredisstack\\0.12.0\\nredisstack.0.12.0.nupkg.sha512",
-    "C:\\Users\\Ali\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
-    "C:\\Users\\Ali\\.nuget\\packages\\stackexchange.redis\\2.7.33\\stackexchange.redis.2.7.33.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Ali\\.nuget\\packages\\system.composition\\6.0.0\\system.composition.6.0.0.nupkg.sha512",
