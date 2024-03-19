@@ -42,6 +42,11 @@ builder.Services.AddAuthorization(option =>
     option.AddPolicy("SignedInCustomer", policy => policy.RequireClaim("Customer", "Customer"));
 });
 
+builder.Services.AddAuthorization(option =>
+{
+    option.AddPolicy("SignedInSeller", policy => policy.RequireClaim("Seller", "Seller"));
+});
+
 //hide connection string
 //builder.Configuration.AddJsonFile("DBConnectionString.json", optional: true);
 

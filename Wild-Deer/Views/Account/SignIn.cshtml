@@ -1,12 +1,18 @@
 ﻿@using Wild_Deer.Models.Dto
-@model SignInDto
+@{
+    if(ViewData["Status"] == "Failed"){
+        <h1>THIS USERNAME EXISTS!</h1>
+        <br />
+        <h1>PLEASE TRY ANOTHER USERNAME</h1>
+    }
+}
 <form method="post">
     <h2>Login</h2>
 
-        <input type="username" placeholder="Enter Your Username" required asp-for="Username"/>
+    <input type="username" placeholder="Enter Your Username" required name="username"/>
         <i class="uil uil-envelope-alt email"></i>
 
-        <input type="password" placeholder="Enter Your Password" required asp-for="Password"/>
+        <input type="password" placeholder="Enter Your Password" required name="pass"/>
 
     <div id="captcha"></div>
     <input type="text" id="userInput" placeholder="Enter Captcha">

@@ -9,8 +9,6 @@ namespace Wild_Deer.Controllers
 {
     public class CommentController : Controller
     {
-        [BindProperty]
-        public SignInDto MyProperty { get; set; }
         private WildDeerContext _db;
         public CommentController(WildDeerContext db) 
         {

@@ -51,7 +51,7 @@ public partial class WildDeerContext : DbContext
             entity.HasKey(e => e.UserId);
 
             entity.Property(e => e.UserId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("UserID");
             entity.Property(e => e.Adress).HasMaxLength(75);
             entity.Property(e => e.Birthday).HasColumnType("datetime");
@@ -68,7 +68,7 @@ public partial class WildDeerContext : DbContext
             entity.HasKey(e => e.ProductId);
 
             entity.Property(e => e.ProductId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("ProductID");
             entity.Property(e => e.Img1).HasColumnName("IMG1");
             entity.Property(e => e.Img10).HasColumnName("IMG10");
@@ -87,7 +87,7 @@ public partial class WildDeerContext : DbContext
             entity.ToTable("HR");
 
             entity.Property(e => e.Hrid)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("HRID");
             entity.Property(e => e.Username).HasMaxLength(20);
         });
@@ -95,7 +95,7 @@ public partial class WildDeerContext : DbContext
         modelBuilder.Entity<Product>(entity =>
         {
             entity.Property(e => e.ProductId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("ProductID");
             entity.Property(e => e.Category).HasMaxLength(15);
             entity.Property(e => e.Description).HasMaxLength(100);
@@ -107,7 +107,7 @@ public partial class WildDeerContext : DbContext
         modelBuilder.Entity<Seller>(entity =>
         {
             entity.Property(e => e.SellerId)
-                .ValueGeneratedNever()
+                .ValueGeneratedOnAdd()
                 .HasColumnName("SellerID");
             entity.Property(e => e.Adress).HasMaxLength(75);
             entity.Property(e => e.CompanyName).HasMaxLength(30);
@@ -127,7 +127,7 @@ public partial class WildDeerContext : DbContext
 
             entity.Property(e => e.SellInfoId)
                 .HasMaxLength(20)
-                .HasColumnName("SellInfoID");
+                .HasColumnName("SellInfoID").ValueGeneratedOnAdd();
             entity.Property(e => e.BuyerId).HasColumnName("BuyerID");
             entity.Property(e => e.PaymentMethod).HasMaxLength(20);
             entity.Property(e => e.ProductId).HasColumnName("ProductID");

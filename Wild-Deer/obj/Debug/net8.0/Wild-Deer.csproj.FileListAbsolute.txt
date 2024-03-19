@@ -135,3 +135,4 @@ C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\obj\Debug\net8.0\Wild-Deer.pdb
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\obj\Debug\net8.0\Wild-Deer.genruntimeconfig.cache
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\obj\Debug\net8.0\ref\Wild-Deer.dll
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\obj\Debug\net8.0\Wild-Deer.sourcelink.json
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\BCrypt.Net-Next.dll

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace Wild_Deer.Models;
 
@@ -11,7 +12,7 @@ public partial class Customer
 
     public DateTime? Birthday { get; set; }
 
-    public DateTime JoinDate { get; set; }
+    public DateTime JoinDate { get; set; } = DateTime.Now;
 
     public string Adress { get; set; } = null!;
 
@@ -25,6 +26,7 @@ public partial class Customer
 
     public string? ProfileImage { get; set; }
 
+    [Key]
     public int UserId { get; set; }
 
 }

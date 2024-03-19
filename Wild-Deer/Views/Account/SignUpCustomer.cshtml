@@ -1,4 +1,12 @@
 ﻿@model Customer
+@{
+    if(ViewData["Status"] == "Failed")
+    {
+        <h1>THIS USERNAME EXISTS!</h1>
+        <br />
+        <h1>PLEASE TRY ANOTHER USERNAME</h1>
+    }
+    }
 <form method="post">
     <div class="input-box">
         <label>First Name</label>
@@ -52,6 +60,6 @@
         <label>Address</label>
         <input type="text" placeholder="Enter Full Address" required asp-for="Adress"/>
     </div>
-    <button type="submit" asp-controller="Account" asp-action="SignUpCustommerPost">Submit</button>
+    <button type="submit" asp-controller="Account" asp-action="SignUpCustomerPost">Submit</button>
     <script src="~/js/captcha.js"></script>
 </form>
