@@ -15,13 +15,11 @@ namespace Wild_Deer.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly WildDeerContext _dbcontext;
-        private readonly IMemoryCache cache;
         private readonly IDistributedCache redis;
-        public HomeController(ILogger<HomeController> logger, WildDeerContext context, IMemoryCache ch,IDistributedCache redis)
+        public HomeController(ILogger<HomeController> logger, WildDeerContext context,IDistributedCache redis)
         {
             _logger = logger;
             this._dbcontext = context;
-            cache = ch;
             this.redis = redis;
         }
 
@@ -31,19 +29,16 @@ namespace Wild_Deer.Controllers
         public IActionResult Index()
         {
             List<Product> db_products = _dbcontext.Products.ToList();
+            var user = HttpContext.User;
+            var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+            var userName = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
 
-            //var auth = User.FindFirst(ClaimTypes.Role);
-            //var claims = new List<Claim> { new Claim(ClaimTypes.Name, "Anonymous") };
-            //var identity = new ClaimsIdentity(claims,"PublicCookie");
-            //ClaimsPrincipal claimprincipal = new ClaimsPrincipal(identity);
-            if(cache.Get(0) != null)
+            if (nameClaim != null)
             {
-                ViewBag.SignInStatus = cache.Get(0);
-                ViewBag.Name = cache.Get(1);
+                ViewBag.SignInStatus = true;
+                ViewBag.Name = userName;
             }
-            //string fileName = redis.GetString("FirstProduct");
-            redis.SetString("FirstProduct", JsonSerializer.Serialize(db_products[0]));
-            Product? pp = JsonSerializer.Deserialize<Product>(redis.GetString("FirstProduct"));
+            List<Product> products = _dbcontext.Products.ToList();
             ViewData["IMG1"] = "/img/12.jpg";
             ViewData["IMG2"] = "/img/back.jpg";
             ViewData["IMG3"] = "/img/12.jpg";
