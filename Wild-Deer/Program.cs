@@ -11,6 +11,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddMemoryCache();
 
 
+builder.Services.AddStackExchangeRedisCache(action => {
+    var connection = "localhost:6379"; //the redis connection
+    action.Configuration = connection;
+});
+
+
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<WildDeerContext>(config =>
 {
     config.UseSqlServer("ConnectionString");
