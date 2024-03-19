@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Diagnostics;
 using System.Security.Claims;
+using Microsoft.Extensions.Caching.Memory;
 
 namespace Wild_Deer.Controllers
 {
@@ -12,11 +13,13 @@ namespace Wild_Deer.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly WildDeerContext _dbcontext;
+        private readonly IMemoryCache cache;
 
-        public HomeController(ILogger<HomeController> logger, WildDeerContext context)
+        public HomeController(ILogger<HomeController> logger, WildDeerContext context, IMemoryCache ch)
         {
             _logger = logger;
             this._dbcontext = context;
+            cache = ch;
         }
 
 
@@ -30,8 +33,11 @@ namespace Wild_Deer.Controllers
             //var claims = new List<Claim> { new Claim(ClaimTypes.Name, "Anonymous") };
             //var identity = new ClaimsIdentity(claims,"PublicCookie");
             //ClaimsPrincipal claimprincipal = new ClaimsPrincipal(identity);
-            //ViewBag.SignInStatus = true;
-            //ViewBag.Name = "Ali";
+            if(cache.Get(0) != null)
+            {
+                ViewBag.SignInStatus = cache.Get(0);
+                ViewBag.Name = cache.Get(1);
+            }
             ViewData["IMG1"] = "/img/12.jpg";
             ViewData["IMG2"] = "/img/back.jpg";
             ViewData["IMG3"] = "/img/12.jpg";

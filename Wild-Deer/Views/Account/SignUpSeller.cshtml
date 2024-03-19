@@ -1,4 +1,12 @@
 ﻿@model Seller
+@{
+    if (ViewData["Status"] == "Failed")
+    {
+        <h1>THIS USERNAME EXISTS!</h1>
+        <br />
+        <h1>PLEASE TRY ANOTHER USERNAME</h1>
+    }
+}
 <form method="post">
     <label>Owner Name</label>
     <input type="text" placeholder="Enter Your Name" required asp-for="OwnerName"/>

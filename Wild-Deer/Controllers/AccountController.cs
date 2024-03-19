@@ -17,12 +17,14 @@ namespace Wild_Deer.Controllers
         [BindProperty]
         public Seller new_seller { get; set; }
 
-       private WildDeerContext _db { get; set; }
+        private WildDeerContext _db;
+        private readonly IMemoryCache cache;
 
 
-        public AccountController(WildDeerContext db)
+        public AccountController(WildDeerContext db,IMemoryCache cha)
         {
             _db = db;
+            cache = cha;
         }
 
         [HttpGet]
@@ -86,7 +88,10 @@ namespace Wild_Deer.Controllers
                             var identity = new ClaimsIdentity(claims, "MyCookieAuth");
                             ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
                             await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
-                            return Redirect("/");
+                            cache.Set(0, true);
+                            cache.Set(1, In_Customers.FirstName);
+                            
+                        return Redirect("/Home/Index");
                             //Redirect
                         }
                         else
@@ -113,7 +118,9 @@ namespace Wild_Deer.Controllers
                             var identity = new ClaimsIdentity(claims, "MyCookieAuth");
                             ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
                             await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
-                            return Redirect("/");
+                        cache.Set(0, true);
+                        cache.Set(1, In_Sellers.OwnerName);
+                        return Redirect("/");
                             //Redirect
                         }
                         else
@@ -179,8 +186,10 @@ namespace Wild_Deer.Controllers
                 await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
 
                 //delete object
-                new_customer = null;
 
+                cache.Set(0, true);
+                cache.Set(1, new_customer.FirstName);
+                new_customer = null;
                 Redirect("/");
                 //move to first page
             }
@@ -202,7 +211,47 @@ namespace Wild_Deer.Controllers
         [HttpPost]
         public async Task<IActionResult> SignUpSellerPost()
         {
+            //check if username is not repeated in seller and customer pages if repeated get back to page
+            bool is_unique = UniqueUser();
+            if (is_unique)
+            {
+                string hashed_password = BCrypt.Net.BCrypt.HashPassword(new_seller.PasswordHash);
+
+                //hash given password
+                new_seller.PasswordHash = hashed_password;
+                //save to database
+                _db.Sellers.Add(new_seller);
+                savechanges();
+                //create claims
+                int SellerID = new_seller.SellerId ;
+                var claims = new List<Claim> {
+                                new Claim("Seller","Seller"),
+                                new Claim("SellerID",SellerID.ToString()),
+                                new Claim("Username",new_seller.Username)
+                                };
+                var identity = new ClaimsIdentity(claims, "MyCookieAuth");
+                ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
+                await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
+
+                cache.Set(0, true);
+                cache.Set(1, new_seller.OwnerName);
+                new_seller = null;
+                //delete object
+                return Redirect("/");
+                //move to first page
+            }
+            else
+            {
+                SignUpellerFailed();
+            }
+
+
             return Redirect("/");
+        }
+        public IActionResult SignUpellerFailed()
+        {
+            ViewData["Status"] = "Fail";
+            return View("SignUpCustomer");
         }
 
 
@@ -231,6 +280,9 @@ namespace Wild_Deer.Controllers
         public async Task<IActionResult> SignOut()
         {
             await HttpContext.SignOutAsync();
+
+            cache.Remove(0);
+            cache.Remove(1);
             return Redirect("/");
         }
 
