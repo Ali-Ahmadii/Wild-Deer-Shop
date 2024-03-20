@@ -1,0 +1,38 @@
+﻿    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        /* You can add your custom styles here */
+        .input-shadow {
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), 0 2px 4px rgba(0, 0, 0, 0.05);
+        }
+        .input-border {
+            border-color: #D1D5DB;
+        }
+    </style>
+
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div class="max-w-md mx-auto bg-white p-6 rounded-md shadow-md">
+        <h2 class="text-2xl font-semibold mb-4">Payment Information</h2>
+        <form>
+            <div class="mb-4 flex items-center">
+                <label for="card-number" class="block text-sm font-medium text-gray-700 mr-4">Card Number</label>
+                <input type="text" id="card-number-section-1" name="card-number-section-1" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-1/4 sm:w-1/6 sm:text-sm border-gray-300 rounded-md px-2 py-1 mr-1 input-border input-shadow" required>
+                <input type="text" id="card-number-section-2" name="card-number-section-2" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-1/4 sm:w-1/6 sm:text-sm border-gray-300 rounded-md px-2 py-1 mr-1 input-border input-shadow" required>
+                <input type="text" id="card-number-section-3" name="card-number-section-3" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-1/4 sm:w-1/6 sm:text-sm border-gray-300 rounded-md px-2 py-1 mr-1 input-border input-shadow" required>
+                <input type="text" id="card-number-section-4" name="card-number-section-4" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-1/4 sm:w-1/6 sm:text-sm border-gray-300 rounded-md px-2 py-1 input-border input-shadow" required>
+            </div>
+            <div class="mb-4">
+                <label for="expiry-date" class="block text-sm font-medium text-gray-700">Expiry Date</label>
+                <input type="text" id="expiry-date" name="expiry-date" placeholder="MM/YY" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:w-1/2 sm:text-sm border-gray-300 rounded-md px-2 py-1 input-border input-shadow" required>
+            </div>
+            <div class="mb-4">
+                <label for="cvv" class="block text-sm font-medium text-gray-700">CVV</label>
+                <input type="text" id="cvv" name="cvv" class="mt-1 focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:w-1/3 sm:text-sm border-gray-300 rounded-md px-2 py-1 input-border input-shadow" required>
+            </div>
+            <div class="flex justify-between">
+                <button type="submit" class="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600">Apply</button>
+                <button type="button" class="px-4 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400 focus:outline-none focus:bg-gray-400">Cancel</button>
+            </div>
+        </form>
+    </div>
+</body>

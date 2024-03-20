@@ -15,11 +15,9 @@ public partial class Sold
 
     public int BuyerId { get; set; }
 
-    public DateOnly BuyingDate { get; set; }
+    public DateTime BuyingDate { get; set; } = DateTime.Now;
 
-    public string PaymentMethod { get; set; } = null!;
 
-    public bool DeliveryStatus { get; set; }
 
     public int SellInfoId { get; set; }
 

@@ -33,6 +33,7 @@ namespace Wild_Deer.Controllers
             var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
             var userName = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
 
+
             if (nameClaim != null)
             {
                 ViewBag.SignInStatus = true;

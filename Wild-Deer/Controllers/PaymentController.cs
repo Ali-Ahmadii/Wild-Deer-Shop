@@ -8,5 +8,15 @@ namespace Wild_Deer.Controllers
         {
             return View();
         }
+        public IActionResult DoPayment() 
+        {
+            //save in sold db
+
+            return null;
+        }
+        public IActionResult Cancell() 
+        {
+            return null;
+        }
     }
 }

@@ -27,6 +27,18 @@ namespace Wild_Deer.Controllers
             ViewData["Seller"] = seller.CompanyName;
             ViewData["Comments"] = tt;
             ViewData["Contact"] = seller.Email;
+
+
+            var user = HttpContext.User;
+            var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
+            var userName = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
+
+            if (nameClaim != null)
+            {
+                ViewBag.SignInStatus = true;
+                ViewBag.Name = userName;
+            }
+
             return View(TargerProduct);
         }
     }

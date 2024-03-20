@@ -53,7 +53,7 @@
         color: #718096;
     }
     </style>
-</head>
+
 
 <body>
     <div class="center">
@@ -82,9 +82,13 @@
 
                                         <td>
                                         <div class="flex justify-center items-center">
-                                            <button class="mr-2 p-1 bg-gray-200 rounded-full" asp-action="Minus">-</button>
+                                        <form method="post">
+                                                    <button class="mr-2 p-1 bg-gray-200 rounded-full" asp-action="Minus" asp-route-productID="@Model[i].ProductId">-</button>
+                                        </form>
                                             <span class="px-2 py-1 border border-gray-200">@ViewData["ProductID"+Model[i].ProductId]</span>
-                                            <button class="ml-2 p-1 bg-gray-200 rounded-full" asp-action="Plus">+</button>
+                                        <form method="post">
+                                            <button class="ml-2 p-1 bg-gray-200 rounded-full" asp-controller="Shop" asp-action="Plus" asp-route-productID="@Model[i].ProductId">+</button>
+                                         </form>
                                         </div>
                                         </td>
                                         

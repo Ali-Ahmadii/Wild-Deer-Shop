@@ -129,7 +129,6 @@ public partial class WildDeerContext : DbContext
                 .HasMaxLength(20)
                 .HasColumnName("SellInfoID").ValueGeneratedOnAdd();
             entity.Property(e => e.BuyerId).HasColumnName("BuyerID");
-            entity.Property(e => e.PaymentMethod).HasMaxLength(20);
             entity.Property(e => e.ProductId).HasColumnName("ProductID");
             entity.Property(e => e.SellerId).HasColumnName("SellerID");
 
