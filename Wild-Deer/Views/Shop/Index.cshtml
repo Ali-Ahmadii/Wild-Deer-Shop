@@ -1,5 +1,127 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model List<Product>
+
+
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Center the table */
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; /* Center vertically */
+        }
+
+        /* Custom styles for table */
+        .custom-table th,
+        .custom-table td {
+            padding: 12px;
+            border-bottom: 1px solid #ddd;
+            text-align: center; /* Center-align all content */
+        }
+
+        .custom-table th {
+            background-color: #f2f2f2;
+        }
+
+        .custom-table tbody tr:hover {
+            background-color: #f5f5f5;
+        }
+
+        /* Payment section styles */
+        .payment-section {
+            width: 75%;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .images{
+            width:50px;
+            height:50px;
+        }
+
+    .empty-state {
+        border: 2px dashed #a0aec0;
+        border-radius: 8px;
+        padding: 40px;
+        text-align: center;
+        width: 75%; /* Adjust width as needed */
+        max-width: 600px; /* Limit maximum width */
+        margin-top: 20px;
+        color: #718096;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="center">
+        @{
+            if(Model != null)
+            {
+                      <div class="w-3/4">
+            <!-- Adjust the width as needed -->
+            <table class="custom-table shadow-md w-full">
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Title</th>
+                        <th>Count</th>
+                        <th>Price</th>
+                        <th>Wanna Delete?</th> <!-- New column -->
+                    </tr>
+                </thead>
+                <tbody>
+                            @{
+                                for(int i = 0; i < Model.Count; i++)
+                                {
+                                    <tr>
+                                        <td><img src="@Model[i].Image" alt="Image 1" class="images"></td>
+                                        <td>@Model[i].Title</td>
+
+                                        <td>
+                                        <div class="flex justify-center items-center">
+                                            <button class="mr-2 p-1 bg-gray-200 rounded-full" asp-action="Minus">-</button>
+                                            <span class="px-2 py-1 border border-gray-200">@ViewData["ProductID"+Model[i].ProductId]</span>
+                                            <button class="ml-2 p-1 bg-gray-200 rounded-full" asp-action="Plus">+</button>
+                                        </div>
+                                        </td>
+                                        
+                                        <td>$@Model[i].Price</td>
+
+                                        <td><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" asp-action="DeleteItem">Delete</button></td>
+                                    </tr>
+                                }
+                            }
+                    <!-- Add more rows as needed -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Payment section -->
+        <div class="mt-8 payment-section flex flex-col items-center">
+            <p class="text-lg mb-4">Please select way of payment:</p>
+            <div class="flex items-center justify-center mb-4">
+                <input type="radio" id="crypto" name="payment" value="crypto" class="mr-2">
+                <label for="crypto" class="mr-4">Crypto</label>
+                <input type="radio" id="card" name="payment" value="card" class="mr-2">
+                <label for="card">Card</label>
+            </div>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Pay On That</button>
+        </div>
+            }
+            else
+            {
+                <div class="empty-state">
+                    <p class="text-lg font-bold mb-4">Oops! Nothing to show here.</p>
+                    <p class="text-sm">It seems like there is no data available at the moment.</p>
+                    <p class="text-sm mt-2">Please Add Some:).</p>
+                </div>
+            }
+
+        }
+    </div>
+  
+</body>
+
