@@ -142,3 +142,8 @@ C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Microsoft.Extensi
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
 C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Ali\Desktop\.NET\Wild-Deer\Wild-Deer\obj\Debug\net8.0\Wild-Deer.MvcApplicationPartsAssemblyInfo.cs

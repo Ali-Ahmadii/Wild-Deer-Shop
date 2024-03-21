@@ -7,42 +7,31 @@ namespace Wild_Deer.Controllers
 {
     public class AdminController : Controller
     {
-        [Authorize(Policy = "ItsMe")]
         public IActionResult Index()
         {
             //?
             return View();
         }
-
-        public IActionResult HRSection()
+        public async Task< IActionResult> SignInAdmin(string username,string password)
         {
-            return Ok();
-        }
-        public IActionResult Products()
-        {
-            return Ok();
-        }
-        public IActionResult Customer()
-        {
-            return Ok();
-        }
-        public IActionResult SoldSection()
-        {
-            return Ok();
-        }
-        public async Task< IActionResult> SignInAdmin()
-        {
-            //some if
-            var claims = new List<Claim> {
+            if(username == "Ali" && password == "ghyui8090")
+            {
+                var claims = new List<Claim> {
                 new Claim("Admin","Ali"),
                 };
-            var identity = new ClaimsIdentity(claims, "MyCookieAuth");
-            ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
-            await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
-            return Redirect("/Admin");
+                var identity = new ClaimsIdentity(claims, "MyCookieAuth");
+                ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
+                await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
+                return Redirect("/Swagger");
+            }
+            else
+            {
+                return Redirect("Index");
+            }
+ 
         }
 
-
+        [Authorize(Policy = "ItsMe")]
         public async Task<IActionResult> SignOutAdmin()
         {
             await HttpContext.SignOutAsync();
