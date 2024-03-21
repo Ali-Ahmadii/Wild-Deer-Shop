@@ -255,26 +255,6 @@ namespace Wild_Deer.Controllers
         }
 
 
-        [HttpGet]
-        [Authorize(Policy = "SignedInCustomer")]
-        public IActionResult EditProfile()
-        {
-            return null;
-        }
-
-        [HttpPost]
-        [Authorize(Policy = "SignedInCustomer")]
-        public async Task<IActionResult> EditProfilePost()
-        {
-             return Redirect("/");
-        }
-
-        [HttpGet]
-        [Authorize(Policy = "SignedInCustomer")]
-        public IActionResult BuyedProducts()
-        {
-            return null;
-        }
 
         [Authorize(Policy = "SignedInCustomer")]
         public async Task<IActionResult> SignOut()

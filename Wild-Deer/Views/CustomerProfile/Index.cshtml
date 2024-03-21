@@ -1,0 +1,114 @@
+﻿@model List<Sold>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Panel</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .circular-section {
+            width: 75px; /* Adjust the width and height as needed */
+            height: 75px;
+            border-radius: 50%; /* This makes it circular */
+            border: 2px solid #ccc; /* Border color and thickness */
+            overflow: hidden; /* Hide any content outside the circle */
+            margin: 20px auto; /* Centering the section */
+        }
+
+            .circular-section  {
+                width: 100%; /* Make the image fill the circular section */
+                height: auto; /* Maintain aspect ratio */
+                display: block; /* Remove any default spacing */
+            }
+    </style>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+
+<body class="bg-gray-100">
+    <partial name="topbar" />
+    <div class="flex h-screen">
+        <!-- Left Panel -->
+        <div class="w-1/15 bg-gray-200 p-4">
+            <ul>
+                <div class="circular-section">
+                    <img src="@ViewBag.Profile" alt="Your Image" class="circular-section"></img>
+                </div>
+                <li class="cursor-pointer mb-2 py-2 px-4 bg-gray-300 rounded-md"><a href="#edit-profile">Edit Profile</a></li>
+                <li class="cursor-pointer mb-2 py-2 px-4 bg-gray-300 rounded-md"><a href="#bought-products">Bought Products</a></li>
+            </ul>
+        </div>
+
+        <!-- Right Panel -->
+        <div class="w-3/4 p-4">
+
+            <!-- Edit Profile Section -->
+            <div id="edit-profile" class="hidden">
+                <form method="post">
+                <h1 class="text-2xl font-bold mb-4">Edit Profile</h1>
+                <div class="mb-4">
+                    <label for="address" class="block text-gray-700 font-bold">Address:</label>
+                    <input type="text" id="address" class="mt-1 p-2 border rounded-md w-full" placeholder="Enter your address" name="address">
+                </div>
+                    <button class="bg-blue-500 text-white py-2 px-4 rounded-md" type="submit" asp-action="EditAdress" name="address">Apply</button>
+                </form>
+            </div>
+
+            <!-- Bought Products Section -->
+            <div id="bought-products" class="hidden">
+                <h1 class="text-2xl font-bold mb-4">Bought Products</h1>
+                <table class="table-auto w-full">
+                    <thead>
+                        
+                        <tr>
+                            <th class="px-4 py-2">Count</th>
+                            <th class="px-4 py-2">Value</th>
+                            <th class="px-4 py-2">Bought Date</th>
+                            <th class="px-4 py-2">Product ID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Sample Row -->
+                        @{
+                            for (int i = 0; i < Model.Count; i++)
+                            {
+                                <tr>
+                                    <td class="border px-4 py-2">@Model[i].Count</td>
+                                    <td class="border px-4 py-2">@Model[i].Value</td>
+                                    <td class="border px-4 py-2">@Model[i].BuyingDate</td>
+                                    <td class="border px-4 py-2">@Model[i].ProductId</td>
+                                </tr>
+                            }
+                        }
+ 
+                        <!-- Add more rows for each bought product -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        // JavaScript to toggle between sections
+        document.addEventListener('DOMContentLoaded', function () {
+            const sections = document.querySelectorAll('.hidden');
+            const links = document.querySelectorAll('li');
+            links.forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.querySelector('a').getAttribute('href').substr(1);
+                    sections.forEach(section => {
+                        if (section.id === targetId) {
+                            section.classList.remove('hidden');
+                        } else {
+                            section.classList.add('hidden');
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
