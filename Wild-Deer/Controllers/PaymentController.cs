@@ -32,17 +32,22 @@ namespace Wild_Deer.Controllers
             List<Sold> sold = new List<Sold>();
             for (int i = 0; i < products.Count; i++)
             {
-                if (!added.Contains(products[i].ProductId))
+                int count = products.Where(vvvvv => vvvvv.ProductId == products[i].ProductId).ToList().Count;
+                if (!added.Contains(products[i].ProductId) && count >= products[i].Count)
                 {
                     Sold forsale = new Sold();
                     forsale.ProductId = products[i].ProductId;
-                    int count = products.Where(vvvvv => vvvvv.ProductId == products[i].ProductId).ToList().Count;
                     forsale.Value = count * products[i].Price;
                     forsale.BuyerId = Convert.ToInt32(nameClaim);
                     forsale.Count = count;
                     forsale.SellerId = products[i].SellerId;
                     added.Add(products[i].ProductId);
                     sold.Add(forsale);
+                }
+                else
+                {
+                    ViewBag.report = "failed";
+                    return Redirect("result/?result=" + "failed");
                 }
             }
             foreach (Sold s in sold)
