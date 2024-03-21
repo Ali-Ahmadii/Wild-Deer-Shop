@@ -94,7 +94,6 @@
                                         
                                         <td>$@Model[i].Price</td>
 
-                                        <td><button class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded" asp-action="DeleteItem">Delete</button></td>
                                     </tr>
                                 }
                             }
@@ -105,14 +104,9 @@
 
         <!-- Payment section -->
         <div class="mt-8 payment-section flex flex-col items-center">
-            <p class="text-lg mb-4">Please select way of payment:</p>
-            <div class="flex items-center justify-center mb-4">
-                <input type="radio" id="crypto" name="payment" value="crypto" class="mr-2">
-                <label for="crypto" class="mr-4">Crypto</label>
-                <input type="radio" id="card" name="payment" value="card" class="mr-2">
-                <label for="card">Card</label>
-            </div>
-            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Pay On That</button>
+            <form  method="post">
+                        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" asp-controller="Payment" asp-action="Index">Pay On That</button>
+            </form>
         </div>
             }
             else

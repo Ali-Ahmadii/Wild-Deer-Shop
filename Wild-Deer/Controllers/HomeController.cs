@@ -23,8 +23,6 @@ namespace Wild_Deer.Controllers
             this.redis = redis;
         }
 
-
-        [AllowAnonymous]
         [HttpGet]
         public IActionResult Index()
         {

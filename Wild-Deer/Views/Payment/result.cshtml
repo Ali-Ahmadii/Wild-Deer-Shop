@@ -1,0 +1,13 @@
+﻿@{
+    if (ViewData["report"] == "success")
+    {
+        <h1>Success</h1>
+    }
+    if (ViewData["report"] == "failed")
+    {
+        <h1>Failed</h1>
+    }
+    <form method="post">
+        <button type="submit" asp-action="TOHome"></button>
+    </form>
+}

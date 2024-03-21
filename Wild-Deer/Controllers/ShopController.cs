@@ -7,6 +7,7 @@ using Wild_Deer.Models;
 
 namespace Wild_Deer.Controllers
 {
+    [Authorize(Policy = "SignedInCustomer")]
     public class ShopController : Controller
     {
 
@@ -18,7 +19,6 @@ namespace Wild_Deer.Controllers
 
 
 
-        [Authorize(Policy = "SignedInCustomer")]
         public IActionResult Index()
         {
             //if redis is empty shop
@@ -26,33 +26,34 @@ namespace Wild_Deer.Controllers
             var user = HttpContext.User;
             var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
             string key = "AddedProductsByID:" + nameClaim;
-
+            var eq = redis.GetString(key);
             List<Product> products = new List<Product>();
-            products = JsonSerializer.Deserialize<List<Product>>(redis.GetString(key));
-            List<Product> send_these = new List<Product>();
-
-
-            for(int i = 0; i < products.Count; i++)
+            if (eq != null)
             {
-                if (ViewData["ProductID" + products[i].ProductId] == null)
+                products = JsonSerializer.Deserialize<List<Product>>(redis.GetString(key));
+                List<Product> send_these = new List<Product>();
+
+
+                for (int i = 0; i < products.Count; i++)
                 {
-                    ViewData["ProductID"+products[i].ProductId] = products.Where(vvvvv=>vvvvv.ProductId == products[i].ProductId).ToList().Count;
-                    send_these.Add(products[i]);
+                    if (ViewData["ProductID" + products[i].ProductId] == null)
+                    {
+                        ViewData["ProductID" + products[i].ProductId] = products.Where(vvvvv => vvvvv.ProductId == products[i].ProductId).ToList().Count;
+                        send_these.Add(products[i]);
+                    }
                 }
+
+                return View(send_these);
+            }
+            else
+            {
+                return View(null);
             }
 
-            return View(send_these);
         }
+        
 
 
-
-
-
-        public IActionResult DeleteItem()
-        {
-            //delete from redis and redirect to index
-            return null;
-        }
         public IActionResult Plus(int productID)
         {
             var user = HttpContext.User;
@@ -82,12 +83,6 @@ namespace Wild_Deer.Controllers
                 AbsoluteExpirationRelativeToNow = TimeSpan.FromDays(5)
             });
             return Redirect("Index");
-        }
-        public IActionResult ToPayment()
-        {
-            //new redis that stores list of count and price of each item with help of prev redis
-            //calculate and send them to pay
-            return null;//information to payment section //remember to remove items if cancelled or was success
         }
     }
 }
