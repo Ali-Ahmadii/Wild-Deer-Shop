@@ -30,9 +30,16 @@ namespace Wild_Deer.Controllers
             var user = HttpContext.User;
             var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
             var userName = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
-
-
-            if (nameClaim != null)
+            var sellerclaim = user.Claims.FirstOrDefault(c => c.Type == "SellerID")?.Value;
+            if(nameClaim == null)
+            {
+                ViewBag.Role = "Seller";
+            }
+            else
+            {
+                ViewBag.Role = "Customer";
+            }
+            if (nameClaim != null || sellerclaim!= null)
             {
                 ViewBag.SignInStatus = true;
                 ViewBag.Name = userName;

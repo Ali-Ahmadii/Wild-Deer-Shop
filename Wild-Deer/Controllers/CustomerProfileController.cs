@@ -18,16 +18,24 @@ namespace Wild_Deer.Controllers
             var user = HttpContext.User;
             var nameClaim = user.Claims.FirstOrDefault(c => c.Type == "UserID")?.Value;
             var userName = user.Claims.FirstOrDefault(c => c.Type == "Username")?.Value;
-            string profile = _db.Customers.FirstOrDefault(c => c.UserId == Convert.ToInt32(nameClaim)).ProfileImage;
-            if (nameClaim != null)
+            var Customer = _db.Customers.FirstOrDefault(c => c.UserId == Convert.ToInt32(nameClaim));
+            if (Customer == null)
             {
-                ViewBag.SignInStatus = true;
-                ViewBag.Name = userName;
+                return Redirect("/SellerProfile/Index");
             }
-            ViewBag.Profile = profile;
-            List<Sold> ss = new List<Sold>();
-            ss = _db.Solds.Where(c=>c.BuyerId == Convert.ToInt32(nameClaim)).ToList();
-            return View(ss);
+            else
+            {
+                string profile = _db.Customers.FirstOrDefault(c => c.UserId == Convert.ToInt32(nameClaim)).ProfileImage;
+                if (nameClaim != null)
+                {
+                    ViewBag.SignInStatus = true;
+                    ViewBag.Name = userName;
+                }
+                ViewBag.Profile = profile;
+                List<Sold> ss = new List<Sold>();
+                ss = _db.Solds.Where(c => c.BuyerId == Convert.ToInt32(nameClaim)).ToList();
+                return View(ss);
+            }
         }
         public IActionResult EditAdress(string address)
         {
@@ -43,6 +51,7 @@ namespace Wild_Deer.Controllers
             c.Adress = address;
             _db.SaveChanges();
             return Redirect("Index");
+
         }
     }
 

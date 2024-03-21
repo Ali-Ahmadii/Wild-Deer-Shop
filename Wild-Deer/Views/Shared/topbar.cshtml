@@ -43,8 +43,16 @@
                             @{
                                 if(ViewBag.SignInStatus == true)
                                 {
-                                    <li><a class="dropdown-item" asp-controller="CustomerProfile" asp-action="Index">Your Account</a></li>
-                                    <li><a class="dropdown-item" asp-controller="Account" asp-action="SignOut">Sign Out</a></li>
+                                    if (ViewBag.Role == "Customer")
+                                    {
+                                        <li><a class="dropdown-item" asp-controller="CustomerProfile" asp-action="Index">Your Account</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="SignOut">Sign Out</a></li>
+                                    }
+                                    if (ViewBag.Role == "Seller")
+                                    {
+                                        <li><a class="dropdown-item" asp-controller="SellerProfile" asp-action="Index">Your Account</a></li>
+                                        <li><a class="dropdown-item" asp-controller="Account" asp-action="SignOut">Sign Out</a></li>
+                                    }
                                 }
                                 else
                                 {

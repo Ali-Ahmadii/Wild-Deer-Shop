@@ -19,12 +19,5 @@ public partial class ExtraImage
 
     public string? Img6 { get; set; }
 
-    public string? Img7 { get; set; }
-
-    public string? Img8 { get; set; }
-
-    public string? Img9 { get; set; }
-
-    public string? Img10 { get; set; }
 
 }

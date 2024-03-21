@@ -1,9 +1,7 @@
 ﻿@using Wild_Deer.Models.Dto
 @{
     if(ViewData["Status"] == "Failed"){
-        <h1>THIS USERNAME EXISTS!</h1>
-        <br />
-        <h1>PLEASE TRY ANOTHER USERNAME</h1>
+        <h1>Not Correct!</h1>
     }
 }
 <form method="post">
@@ -27,6 +25,7 @@
 
     <button class="button" type="submit" asp-controller="Account" asp-action="SignInPost">Login Now</button>
 
-    <div class="login_signup">Don't have an account? <a href="#" id="signup">Signup</a></div>
+    <div class="login_signup">Don't have an account? <a href="/Account/SignUpSeller" id="signup">Signup Seller</a></div>
+    <div class="login_signup">Don't have an account? <a href="/Account/SignUpCustomer" id="signup">Signup Customer</a></div>
     <script src="~/js/captcha.js"></script>
 </form>

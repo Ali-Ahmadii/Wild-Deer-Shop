@@ -71,15 +71,11 @@ public partial class WildDeerContext : DbContext
                 .ValueGeneratedOnAdd()
                 .HasColumnName("ProductID");
             entity.Property(e => e.Img1).HasColumnName("IMG1");
-            entity.Property(e => e.Img10).HasColumnName("IMG10");
             entity.Property(e => e.Img2).HasColumnName("IMG2");
             entity.Property(e => e.Img3).HasColumnName("IMG3");
             entity.Property(e => e.Img4).HasColumnName("IMG4");
             entity.Property(e => e.Img5).HasColumnName("IMG5");
             entity.Property(e => e.Img6).HasColumnName("IMG6");
-            entity.Property(e => e.Img7).HasColumnName("IMG7");
-            entity.Property(e => e.Img8).HasColumnName("IMG8");
-            entity.Property(e => e.Img9).HasColumnName("IMG9");
         });
 
         modelBuilder.Entity<Hr>(entity =>

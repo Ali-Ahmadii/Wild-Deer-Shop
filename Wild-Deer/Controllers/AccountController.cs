@@ -119,10 +119,10 @@ namespace Wild_Deer.Controllers
                             ClaimsPrincipal claimPrincipal = new ClaimsPrincipal(identity);
                             await HttpContext.SignInAsync("MyCookieAuth", claimPrincipal);
                         cache.Set(0, true);
-                        cache.Set(1, In_Sellers.OwnerName);
-                        return Redirect("/");
-                            //Redirect
-                        }
+                        cache.Set(1, In_Sellers.Username);
+                        return Redirect("/Home/Index");
+                        //Redirect
+                    }
                         else
                         {
                             ViewData["Status"] = "Failed";
@@ -235,6 +235,7 @@ namespace Wild_Deer.Controllers
 
                 cache.Set(0, true);
                 cache.Set(1, new_seller.OwnerName);
+
                 new_seller = null;
                 //delete object
                 return Redirect("/");
