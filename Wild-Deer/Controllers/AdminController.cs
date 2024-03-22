@@ -14,7 +14,7 @@ namespace Wild_Deer.Controllers
         }
         public async Task< IActionResult> SignInAdmin(string username,string password)
         {
-            if(username == "Ali" && password == "ghyui8090")
+            if(username == "Ali" && password == "Ali")
             {
                 var claims = new List<Claim> {
                 new Claim("Admin","Ali"),

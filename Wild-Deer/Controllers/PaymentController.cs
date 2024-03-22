@@ -46,6 +46,7 @@ namespace Wild_Deer.Controllers
                 }
                 else
                 {
+                    ViewBag.Reason = "Not Available";
                     ViewBag.report = "failed";
                     return Redirect("result/?result=" + "failed");
                 }
