@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("88247af4-ba6c-4589-9156-cf296528f817")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0361d556419e85b2354f1cac4fe487a3635770c6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b88815deaf7527f13c549e67f8aff4fa16d7851a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Wild-Deer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

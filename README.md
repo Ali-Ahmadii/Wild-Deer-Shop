@@ -76,4 +76,10 @@ some-redis Is Name Of Our Image, You Can Choose Whatever You Want
 
 API Documentation With Swagger
 -
-For Using API You Must Login As Admin Or HR
+For Using API You Must Login As Admin Or HR : Username = Ali & Password = Ali
+<br>
+<img align="center" alt="BootStrap" height="1200" width="100%" src="https://github.com/Ali-Ahmadii/Wild-Deer-Shop/blob/main/API.jpg">
+
+Data Base
+-
+In WildDeerDB Foler Database Tables Are Represented In Scripts You Can Use This For Creating You Own Tables In MSS
