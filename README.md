@@ -83,3 +83,20 @@ For Using API You Must Login As Admin Or HR : Username = Ali & Password = Ali
 Data Base
 -
 In WildDeerDB Foler Database Tables Are Represented In Scripts You Can Use This For Creating You Own Tables In MSS
+
+Dockerize
+-
+In DockerFile I've Writed Needed Commands For Building Image 
+<br>
+For Building Image You Should Write This Command In Application Directory
+```CMD
+docker build -t <tagname> .
+```
+Now You Have Your Image On Docker And For Seeing This Write This Command
+```CMD
+docker image ls
+```
+Now For Running Write This Command In Your Windows Or VPS That You've Got
+```CMD
+docker run <tagname that you determinded before>
+```
